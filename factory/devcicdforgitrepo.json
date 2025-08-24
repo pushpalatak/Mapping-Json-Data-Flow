@@ -1,0 +1,9 @@
+{
+	"name": "devcicdforgitrepo",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "38d9bb71-49d9-43f7-ad72-aaf28678fc82",
+		"tenantId": "d21db916-0f29-4cc6-87ba-ca23382042e9"
+	}
+}

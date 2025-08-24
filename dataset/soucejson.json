@@ -1,0 +1,36 @@
+{
+	"name": "soucejson",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "likedservice_source",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "demo (1).json",
+				"container": "sourcecont"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"OrderID": {
+					"type": "integer"
+				},
+				"Product": {
+					"type": "string"
+				},
+				"Quantity": {
+					"type": "integer"
+				},
+				"Price": {
+					"type": "integer"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
